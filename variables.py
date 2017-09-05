@@ -21,3 +21,12 @@ print(manila_pop_density)
 # Need to do equation again
 manila_pop_density = manila_pop / manila_area
 print(manila_pop_density)
+
+# Boolean examples
+the_sun_is_up = true
+the_sky_is_gray = false
+print(1<2)
+print(42>43)
+print(manila_pop == manila_area)
+print(savings != salary)
+print(30>=29)
