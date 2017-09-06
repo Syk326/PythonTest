@@ -54,8 +54,8 @@ fish_count = "One fish, two fish, red fish, blue fish".count('fish')
 print(fish_count)
 
 # pre-populate str
-user_ip = 208.94.117.90
-url = /bears/koala
-now = 16:20
+user_ip = "208.94.117.90"
+url = "/bears/koala"
+now = "16:20"
 log_message = "IP address {} accessed {} at {}".format(user_ip, url, now)
 print(log_message)
