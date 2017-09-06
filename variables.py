@@ -23,8 +23,8 @@ manila_pop_density = manila_pop / manila_area
 print(manila_pop_density)
 
 # Boolean examples
-the_sun_is_up = true
-the_sky_is_gray = false
+the_sun_is_up = True
+the_sky_is_gray = False
 print(1<2)
 print(42>43)
 print(manila_pop == manila_area)
