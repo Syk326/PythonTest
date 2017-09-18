@@ -28,6 +28,7 @@ These are some of the topics I've explored so far:
 * Generate lists and manipulate or print elements using indices
 * Used for loops with range and while loops as practice with data structures
 * Read and re-factored existing code to be more readable
+* Removed duplicates easily using sets
 
 ## License
 Most of these programs are based off free learning materials and are not completely of my own creation. Therefore I'm using **_The Unlicense_**:
