@@ -1,4 +1,4 @@
-# Testing out using sets
+# Testing out using sets, CANNOT SORT
 
 # Removing duplicates WITHOUT sets
 def remove_duplicates(source):

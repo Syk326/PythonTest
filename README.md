@@ -29,8 +29,9 @@ These are some of the topics I've explored so far:
 * Use for loops with range and while loops as practice with data structures
 * Read and re-factored existing code to be more readable
 * Remove duplicates easily using sets
-* Utilize dictionaries (HashSets) to keep track of keys and values
 * Import a specific list from another script
+* Utilize dictionaries (HashSets) to keep track of keys and values
+* Manipulate multiple element list that act as a value in a dictionary entry
 
 ## License
 Most of these programs are based off free learning materials and are not completely of my own creation. Therefore I'm using **_The Unlicense_**:

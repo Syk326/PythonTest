@@ -1,6 +1,6 @@
 from countries import country_list # Note: since the list is so large, it's tidier
 
-# Practicing with dictionaries, like HashSets
+# Practicing with dictionaries, like HashSets, CANNOT SORT
 
 # count number of each country, imported
 country_counts = {}
@@ -49,3 +49,28 @@ def most_prolific(discography):
     # return max value
     return max(year_list, key=year_list.get)
 print (most_prolific(Beatles_Discography))
+
+# dictionary in a dictionary
+elements = {'hydrogen': {'number': 1, 'weight': 1.00794, 'symbol': 'H'}, 'helium': {'number': 2, 'weight': 4.002602, 'symbol': 'He'}}
+print(elements['helium']['symbol'])
+elements['hydrogen']['is_noble_gas'] = False
+elements['helium']['is_noble_gas'] = True
+print(elements['hydrogen'])
+
+# dictionary with a list for values
+monthly_takings = {'January': [54, 63], 'February': [64, 60], 'March': [63, 49],
+                   'April': [57, 42], 'May': [55, 37], 'June': [34, 32],
+                   'July': [69, 41, 32], 'August': [40, 61, 40], 'September': [51, 62],
+                   'October': [34, 58, 45], 'November': [67, 44], 'December': [41, 58]}
+# total up all the numbers (earnings) throughout the year
+def total_takings(yearly_record):
+    total = 0;
+    for month in yearly_record:
+        for earning in yearly_record[month]:
+            total += earning
+    return total
+print(total_takings(monthly_takings))
+
+# do nothing
+def some_function(argument):
+    pass
