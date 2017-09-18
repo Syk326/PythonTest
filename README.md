@@ -26,9 +26,11 @@ These are some of the topics I've explored so far:
 * Use conditionals if/elif/else with and/or/not statements
 * Create simple program broken down into multiple functions
 * Generate lists and manipulate or print elements using indices
-* Used for loops with range and while loops as practice with data structures
+* Use for loops with range and while loops as practice with data structures
 * Read and re-factored existing code to be more readable
-* Removed duplicates easily using sets
+* Remove duplicates easily using sets
+* Utilize dictionaries (HashSets) to keep track of keys and values
+* Import a specific list from another script
 
 ## License
 Most of these programs are based off free learning materials and are not completely of my own creation. Therefore I'm using **_The Unlicense_**:

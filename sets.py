@@ -14,6 +14,11 @@ print(remove_duplicates(countries))
 country_set = set(countries)
 print(country_set) #wow
 
+# add element to set
+country_set.add('Canada')
+for country in country_set:
+    print(country)
+
 # Populate "square" with set of all square num ints < 2000
 squares = set() #empty set
 n = 1
