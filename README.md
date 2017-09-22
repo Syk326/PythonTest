@@ -32,6 +32,9 @@ These are some of the topics I've explored so far:
 * Import a specific list from another script
 * Utilize dictionaries (HashSets) to keep track of keys and values
 * Manipulate multiple element list that act as a value in a dictionary entry
+* Use tuples to store immutable values
+* Set defaults to arguments in functions that are optional, unless the variable is mutable
+* Open and manipulate file info (including read and write)
 
 ## License
 Most of these programs are based off free learning materials and are not completely of my own creation. Therefore I'm using **_The Unlicense_**:
