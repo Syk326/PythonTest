@@ -31,10 +31,15 @@ These are some of the topics I've explored so far:
 * Remove duplicates easily using sets
 * Import a specific list from another script
 * Utilize dictionaries (HashSets) to keep track of keys and values
-* Manipulate multiple element list that act as a value in a dictionary entry
+* Manipulate multiple element lists that act as a value in a dictionary entry
 * Use tuples to store immutable values
 * Set defaults to arguments in functions that are optional, unless the variable is mutable
 * Open and manipulate file info (including read and write)
+* Explore the Python Standard Library and import relevant modules to save time on pre-existing functions
+* Import objects from a module and rename them for easy-to-read code
+* Find useful third-party libraries and install using pip
+* Install all third-party packages required for a large program using ```pip3 install -r requirements.txt```
+* Search for answers to code questions online on useful websites
 
 ## License
 Most of these programs are based off free learning materials and are not completely of my own creation. Therefore I'm using **_The Unlicense_**:
