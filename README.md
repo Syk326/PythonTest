@@ -40,6 +40,10 @@ These are some of the topics I've explored so far:
 * Find useful third-party libraries and install using pip
 * Install all third-party packages required for a large program using ```pip3 install -r requirements.txt```
 * Search for answers to code questions online on useful websites
+* Find the Philosophy article on Wikipedia starting from any other article
+* Read and understand basic HTML in web packages
+* Install third-party Python libraries that can store and manipulate HTML (Requests and BeautifulSoup)
+* Utilize BeautifulSoup documentation to parse HTML information from a Wikipedia page
 
 ## License
 Most of these programs are based off free learning materials and are not completely of my own creation. Therefore I'm using **_The Unlicense_**:
