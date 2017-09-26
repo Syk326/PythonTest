@@ -10,8 +10,8 @@ import os.path # submodule
 # DON'T: import os.path.isdir <- won't work to import function
 
 # third-party packages: large programs may depend on dozens
-# import pytz <- 3rd party library
-# FIRST: pip3 install pytz <- pip comes with python3
+import pytz # 3rd party library
+# FIRST: pip3 install pytz <- pip comes with python3 (must be sudo)
 """
 share large programs with requirements.txt:
 Lists out a project's dependencies, each line has package name & optional ver. #

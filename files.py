@@ -3,7 +3,7 @@
 # open and read
 """
 f = variable the file value is assigned to
-open = build-in open function
+open = built-in open function
 flying_circus_cast.txt = path to file
 r = mode to open in, in this case read-only
 """
