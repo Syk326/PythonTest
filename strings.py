@@ -11,8 +11,11 @@ salesman_double = "I think you're an encyclopaedia salesman"
 coconuts = "34"
 mangos = "15"
 fruit = coconuts + mangos
+number = "3415"
 print(fruit) # 3415
 print(coconuts + " and " + mangos)
+print(coconuts==mangos) # can compare str
+print(fruit==number) # can compare str
 
 # str functions
 given_name = "Gregory"
