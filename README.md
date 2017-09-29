@@ -45,6 +45,8 @@ These are some of the topics I've explored so far:
 * Install third-party Python libraries that can store and manipulate HTML (Requests and BeautifulSoup)
 * Utilize BeautifulSoup documentation to parse HTML information from a Wikipedia page
 * Create a Wikipedia web crawler (in accordance with robots.txt) using standard library and third-party libraries
+* Troubleshoot bugs and improve script based on what I want it to do
+* Completed [Udacity: Introduction to Python](https://www.udacity.com/course/introduction-to-python--ud1110)
 
 ## License
 Most of these programs are based off free learning materials and are not completely of my own creation. Therefore I'm using **_The Unlicense_**:
