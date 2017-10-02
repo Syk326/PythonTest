@@ -6,9 +6,19 @@ import urllib
 import requests
 import bs4
 
+"""
+Steps: (a few mins of planning can save hours of wasted time)
+1. Try it out
+2. Learn
+3. Design
+4. Write code
+5. Test
+6. Repeat
+"""
+
 # Define the starting article
-start_url = "https://en.wikipedia.org/wiki/Special:Random"
-# start_url = "https://en.wikipedia.org/wiki/Data"
+# start_url = "https://en.wikipedia.org/wiki/Special:Random"
+start_url = "https://en.wikipedia.org/wiki/Class_(biology)"
 # Define the target article ("Philosophy")
 target_url = "https://en.wikipedia.org/wiki/Philosophy"
 target_url2 = "https://en.wikipedia.org/wiki/Philosophical" # re-directs to "Philosophy"
@@ -22,8 +32,12 @@ def find_first_link(url):
     soup = bs4.BeautifulSoup(html, "html.parser")
     # Find the <div> that contains the article's body
     content_div = soup.find(id='mw-content-text').find(class_="mw-parser-output")
+
     # If the article contains no links, this value will remain None
     article_link = None
+
+    if not content_div:
+        return
     # Find all direct children of content_div that are paragraphs
     for element in content_div.find_all("p", recursive=False):
 
