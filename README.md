@@ -49,6 +49,12 @@ These are some of the topics I've explored so far:
 * Completed Udacity: Introduction to Python
 * Searching for advanced Python training materials (Lynda account currently down)
 * Lynda account back up and starting Python 3 Essential Training, which covers Regex, third party libraries, and database integration, all of which are related to a company project
+* Add shebang line to script and execute directly from command line
+* Create instance of class with a constructor
+* Generate one-line conditionals such as ```"foo" if a < b else "bar"```
+* Practice returning iterator object with ```yield```
+* Utilize inheritance and polymorphism in classes
+* Wrap error-prone code in try/except to throw exception if necessary
 
 ## License
 Most of these programs are based off free learning materials and are not completely of my own creation. Therefore I'm using **_The Unlicense_**:
